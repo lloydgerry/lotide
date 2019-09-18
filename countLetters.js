@@ -21,7 +21,6 @@ const countLetters = function (stringCounted) {
   } return letters;
 }
  
-
 const newResult = countLetters("The world is going to end")
 
 assertEqual(newResult["T"], 1);
