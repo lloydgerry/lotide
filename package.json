@@ -1,0 +1,26 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "Lighthouse Labs clone of lodash by Lloyd Gerry",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lloydgerry/lotide.git"
+  },
+  "author": "Lloyd Gerry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lloydgerry/lotide/issues"
+  },
+  "homepage": "https://github.com/lloydgerry/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
