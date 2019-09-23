@@ -8,15 +8,14 @@ const takeUntil = function(array, callback) {
   const results = []
   //console.log("arraybefore: ", array);
   for (let element of array) {
-    console.log(array)
     if (!callback(element)) {
       results.push(element);
     } else {
       break;
     }
-    }
-    return results;
   }
+  return results;
+};
 
 const countries = ["Greenland", "Canada", "England", "Spain", "Germany", "Argentina"];
 

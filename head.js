@@ -1,5 +1,5 @@
 // FUNCTION IMPLEMENTATION
-const assertEqual = require('./assertEqual')
+const assertEqual = require('./assertEqual');
 
 function head(array) {
   print = array;

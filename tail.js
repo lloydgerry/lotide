@@ -1,15 +1,13 @@
-// FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(` \u2764\uFE0F Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(` \u2620 Assertion Failed: "${actual}" !== "${expected}"`);
-  }
-};
+
+
 
 function tail(array) {
-  newArray = array.splice(0);
+  let newArray = array.splice(1);
+  return newArray;
 }
+console.log(tail([0, 1, 2]))
 
 // TEST CODE
 // assertEqual(1, 2, 3);
+
+module.exports = tail;
