@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@lloydgerry/lotide",
   "version": "1.0.0",
   "description": "Lighthouse Labs clone of lodash by Lloyd Gerry",
   "main": "index.js",

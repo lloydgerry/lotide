@@ -2,10 +2,7 @@
 const findKey = function(object, callback) {
   let allObjectValues = Object.keys(object)
   for (let key of allObjectValues) {
-    //console.log("key: ", object[key])
-    //console.log("callback: ", callback(object[key]));
     if (callback(object[key]))  {
-      //console.log("key: ", callback(object[key]));
       return key;
     } 
     }

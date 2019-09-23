@@ -2,7 +2,7 @@
 //        an array
 //        callback function
 // outputs:
-//         return new away based on callback
+//         return new array based on callback
 
 const words = ["Paris", "Rome", "New York", "Montreal"];
 
